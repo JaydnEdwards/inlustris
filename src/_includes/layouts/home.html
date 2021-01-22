@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %} {% block content %}
+<article>
+  {{ content | safe }}
+
+  {% include "partials/cards.html" %}
+
+  {% include "partials/social.html" %}
+</article>
+  <section>
+    {% include "partials/author.html" %}
+  </section>
+{% endblock %}

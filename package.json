@@ -1,0 +1,23 @@
+{
+  "name": "inlustris",
+  "version": "1.0.0",
+  "description": "The website for my tarot deck, Inlustris Tarot.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydnEdwards/inlustris.git"
+  },
+  "keywords": [],
+  "author": "Jaydn Edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaydnEdwards/inlustris/issues"
+  },
+  "homepage": "https://github.com/JaydnEdwards/inlustris#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}

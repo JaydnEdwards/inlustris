@@ -1,0 +1,250 @@
+@import url("https://use.typekit.net/nos7ayz.css");
+
+@font-face{
+    font-family: 'HKGrotesk';
+    src: url(/fonts/HKGrotesk-Medium.woff);
+}
+
+*{
+    --primary: #174E69;
+    --secondary: rgb(202, 173, 9);
+    --body-bg: #EBE3E1;
+    --nav-bg: rgba(23,78,105, 0.75);
+    --author-bg: var(--primary);
+
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }  
+
+body{
+    background-color: var(--body-bg);
+}
+
+main{
+    padding: 0, 0.5em;
+}
+
+h1,
+h2,
+h3{
+    font-family: mrs-eaves, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+
+    color: var(--primary);
+
+    text-align: center;
+}
+
+p{
+    font-family: 'HKGrotesk', sans-serif;
+    max-width: 75ch;
+    margin-bottom: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: -2px;
+}
+
+.emoji{
+    font-size: inherit;
+}
+
+.button{
+    color: white;
+    background-color: var(--primary);
+    border-radius: 2em;
+    transition: 0.25s;
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: var(--secondary);
+}
+
+.button a{
+    padding: 0.5em 2em;
+    display: inline-block;
+}
+
+.button a:hover{
+    text-decoration: none;
+}
+
+hgroup *{
+    line-height: 1;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.site-title{
+    font-size: 94px;
+    font-size-adjust: 0.5;
+    color: white;
+}
+
+.tagline{
+    font-family: mrs-eaves-roman-all-petite-c, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+header{
+    background-color: var(--primary);
+    background-image: url(/images/hero.jpg);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    min-height: 40vh;
+}
+
+header .wrapper{
+    height: 33vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.primary-nav{
+    background: var(--nav-bg);
+    padding: 0.25em 0;
+    font-family: mrs-eaves, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+    color: white;
+}
+
+.primary-nav ul{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.primary-nav li:not(:last-child){
+    margin-right: 1em;
+}
+
+.primary-nav a:hover{
+    text-decoration-color: white;
+}
+
+nav ul{
+    padding: 0;
+}
+
+article{
+    max-width: 70ch;
+    margin: 0 auto;
+    padding: 0 0.5em;
+}
+
+.cards-wrapper{
+    width: 120%;
+    margin-left: -10%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 80px;
+}
+
+.social-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-nav li:not(:last-child){
+    margin-right: 1.5em;
+}
+
+.author{
+    width: 100%;
+    background-color: var(--author-bg);
+    color: white;
+    padding: 40px 0 60px 0;
+}
+
+.author .wrapper{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    max-width: 55vw;
+
+    margin: 0 auto;
+}
+
+.author-text{
+    max-width: 50ch;
+}
+
+.author-text h2{
+    color: white;
+    text-align: left;
+}
+
+.author img{
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 330px;
+    max-height: 350px;
+}
+
+.author a{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.author a:hover{
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 5px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 3em;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration-color: white;
+}

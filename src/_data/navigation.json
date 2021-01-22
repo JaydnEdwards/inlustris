@@ -1,0 +1,17 @@
+{
+    "items": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "Major Arcana",
+        "url": "/major-arcana/"
+      },
+      {
+        "text": "Minor Arcana",
+        "url": "/minor-arcana/"
+      }
+    ]
+  }
+  

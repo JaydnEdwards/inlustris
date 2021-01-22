@@ -1,0 +1,19 @@
+<a class="[ skip-link ] [ button ]  [ visually-hidden ]" href="#main-content">Skip to content</a>
+<header role="banner" class="site-head">
+    <nav class="[ primary-nav ]">
+        <ul>
+            {% for item in navigation.items %}
+            <li>
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <div class="[ wrapper ]">
+        <hgroup>
+            <h1 class="[ site-title ]">Inlustris Tarot</h1>
+            <h2 class="[ tagline ]">A modern deck for a digital age</h2>
+        </hgroup>
+  </div>
+</header>
