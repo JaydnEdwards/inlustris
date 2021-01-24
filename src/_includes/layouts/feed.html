@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %} {% block content %}
+<article class="feed-body">
+    <h2>{{ title }}</h2>
+    <div class="feed-wrapper">
+    {% for post in collections.majorArcana %}
+        <figure>
+            <picture>
+                <source srcset=".src/{{ post.data.card.webp }}" alt="">
+                    <img src=".src/{{ post.data.card.jpg }}">
+            </picture>
+
+            <figcaption>
+                <h3>{{ post.data.title }}</h3>
+            </figcaption>
+        </figure>
+    {% endfor %}
+    </div>
+</article>
+{% endblock %}
