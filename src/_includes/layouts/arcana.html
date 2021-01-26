@@ -11,7 +11,17 @@
       <figcaption>
           <p class="meaning">{{ meaning.general }}</p>
           <p class="meaning">{{ meaning.example }}</p>
+
+            <h3>Keywords</h3>
+          <ul class="keywords">
+            {% for item in keywords %}
+                <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
         </figcaption>
   </figure>
+  {% if quote %}
+  <blockquote class="arcana-quote">"{{ quote }}"</blockquote>
+  {% endif %}
 </article>
 {% endblock %}
