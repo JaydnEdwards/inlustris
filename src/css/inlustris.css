@@ -12,7 +12,7 @@
     --nav-bg: rgba(23,78,105, 0.75);
     --author-bg: var(--primary);
 
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
 }
 
@@ -66,6 +66,14 @@ figcaption{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+a img{
+    transition: 0.5s;
+}
+
+a img:hover{
+    filter: hue-rotate(180deg);
 }
 
 a:hover{
@@ -188,6 +196,7 @@ img{
 
     display: flex;
     justify-content: space-between;
+    column-gap: 1em;
 
     margin-bottom: 80px;
 }
@@ -294,7 +303,7 @@ img{
 
 .feed-wrapper{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 1em;
 }
