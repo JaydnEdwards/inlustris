@@ -9,7 +9,7 @@
     --primary: #174E69;
     --secondary: rgb(202, 173, 9);
     --body-bg: #EBE3E1;
-    --nav-bg: rgba(23,78,105, 0.75);
+    --nav-bg: rgba(23,78,105, 0.50);
     --author-bg: var(--primary);
 
     font-size: 22px;
@@ -158,6 +158,9 @@ header .wrapper{
     font-style: normal;
     font-size: 2.5em;
     color: white;
+
+    backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .primary-nav ul{
@@ -229,7 +232,7 @@ img{
     justify-content: space-around;
     flex-wrap: wrap;
 
-    max-width: 55vw;
+    max-width: 85ch;
 
     margin: 0 auto;
 }
@@ -309,12 +312,12 @@ img{
 }
 
 .feed-wrapper figure{
-    max-width: 225px;
+    width: clamp(100px, 40%, 225px);
     margin-bottom: 1em;
 }
 
 .feed-wrapper picture{
-    max-width: 225px;
+    width: 100%;
     height: auto;
 }
 
