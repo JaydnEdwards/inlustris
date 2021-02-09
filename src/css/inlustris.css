@@ -354,7 +354,7 @@ img{
 }
 
 .feed-wrapper figure{
-    width: clamp(100px, 40%, 225px);
+    width: clamp(150px, 40%, 225px);
     margin-bottom: 1em;
 }
 
