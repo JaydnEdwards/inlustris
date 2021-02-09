@@ -11,10 +11,17 @@ module.exports = config => {
         .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
     });
 
-    // Returns mminor arcana items, sorted by display order
+    // Returns minor arcana items, sorted by display order
     config.addCollection('minorArcana', collection => {
       return collection
         .getFilteredByGlob('./src/minor-arcana/*.md')
+        .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
+    });
+
+    // Returns minor arcana items, sorted by display order
+    config.addCollection('blog', collection => {
+      return collection
+        .getFilteredByGlob('./src/blog/*.md')
         .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
     });
 

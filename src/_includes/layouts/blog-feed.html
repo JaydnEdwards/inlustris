@@ -1,0 +1,10 @@
+{% extends "layouts/base.html" %} {% block content %}
+<article class="blog-feed">
+    <h2>{{ title }}</h2>
+    {% for post in collections.blog %}
+    <h3><a href="{{ post.url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
+    <p>{{ post.data.snippet }}</p>
+    <hr>
+    {% endfor %}
+</article>
+{% endblock %}
