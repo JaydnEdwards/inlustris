@@ -240,7 +240,7 @@ img{
     margin-left: -10%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 1em;
 
     margin-bottom: 80px;
@@ -265,7 +265,7 @@ img{
     width: 100%;
     background-color: var(--author-bg);
     color: white;
-    padding: 40px 0 60px 0;
+    padding: 40px 1em 60px 1em;
 }
 
 .author .wrapper{
@@ -412,4 +412,30 @@ footer a{
 
 footer a:hover{
     text-decoration-color: white;
+}
+
+@media only screen and (max-width: 990px){
+    .cards-wrapper{
+        width: 90vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .cards-wrapper figure{
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .social-nav li{
+        margin-right: 1.5em;
+        margin-left: 1.5em;
+        margin-bottom: 2em;
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+
+    .feed-wrapper img{
+        border-radius: 5px;
+    }
 }
