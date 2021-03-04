@@ -65,6 +65,18 @@ h3{
     font-size: 2rem;
 }
 
+.blog h3{
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 10px;
+    text-underline-offset: -7px;
+    text-decoration-skip-ink: none;
+}
+
+.feed-wrapper h3 a{
+    font-weight: normal;
+}
+
 figcaption h3{
     text-align: center;
 }
