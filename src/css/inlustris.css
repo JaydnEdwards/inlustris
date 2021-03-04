@@ -61,6 +61,8 @@ h3 a{
 h3{
     text-align: left;
     line-height: 1.2;
+    font-weight: normal;
+    font-size: 2rem;
 }
 
 figcaption h3{
