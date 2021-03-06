@@ -109,6 +109,18 @@ figcaption{
     font-family: 'HKGrotesk', sans-serif;
 }
 
+time{
+    color: var(--primary);
+}
+
+.post-date{
+    border-bottom: 2px solid var(--primary);
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    padding: 5px;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -404,12 +416,6 @@ img{
     margin-bottom: 1.5em;
 }
 
-progress{
-    width: 100%;
-    color: red;
-    height: 2em;
-}
-
 footer{
     background: black;
     color: white;
@@ -451,5 +457,11 @@ footer a:hover{
 
     .feed-wrapper img{
         border-radius: 5px;
+    }
+}
+
+@supports not (text-decoration-skip-ink: none){
+    .blog h3{
+        text-underline-offset: 0;
     }
 }
