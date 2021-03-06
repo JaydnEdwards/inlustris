@@ -3,7 +3,7 @@ layout: "layouts/blog.html"
 title: "Getting your first tarot deck"
 snippet: "Looking into getting your first deck? Let's go over a few tips to help you start your journey and bust some myths."
 date: "2021-03-04"
-socialImage: "../images/blog/rider-waite.jpg"
+socialImage: "/images/blog/rider-waite.jpg"
 ---
 
 Looking into getting your first deck? Let's go over a few tips to help you start your journey and bust some myths.

@@ -29,7 +29,7 @@ module.exports = config => {
 
     // Returns minor arcana items, sorted by display order
     config.addCollection('blog', collection => {
-  return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  return [...collection.getFilteredByGlob('./src/blog/*.md')].reverse();
 });
 
     return {
