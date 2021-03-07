@@ -8,7 +8,7 @@
     <div class="[ blog-feed-wrapper ]">
     <img src="{{ post.data.socialImage }}" type="image/jpg" alt="">
     <h3><a href="{{ post.url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
-    <p class="post-date">Posted on <time datetime="{{ date }}">{{ date | dateFilter }}</time>.</p>
+    <p class="post-date">Posted on <time datetime="{{ post.data.date | w3DateFilter }}">{{ post.data.date | dateFilter }}</time>.</p>
     <p>{{ post.data.snippet }}</p>
     {% if post.data.tags %}
         <ul class="post-tags">
