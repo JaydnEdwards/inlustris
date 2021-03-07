@@ -2,9 +2,22 @@
 <article class="blog-feed">
     <h2>{{ title }}</h2>
     {% for post in collections.blog %}
+    <picture>
+        <source
+    </picture>
+    <div class="[ blog-feed-wrapper ]">
+    <img src="{{ post.data.socialImage }}" type="image/jpg" alt="">
     <h3><a href="{{ post.url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
+    <p class="post-date">Posted on <time datetime="{{ date }}">{{ date | dateFilter }}</time>.</p>
     <p>{{ post.data.snippet }}</p>
-    <hr>
+    {% if post.data.tags %}
+        <ul class="post-tags">
+            {% for item in post.data.tags %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    </div>
     {% endfor %}
 </article>
 {% endblock %}

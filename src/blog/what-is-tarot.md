@@ -3,7 +3,8 @@ layout: "layouts/blog.html"
 title: "What is Tarot?"
 snippet: "Many people wonder what tarot is and how they can use it. Here, I explain."
 date: "2021-02-20"
-socialImage: "/images/blog/rider-waite.jpg"
+socialImage: "https://inlustristarot.com/images/blog/rider-waite.jpg"
+tags:
 ---
 
 A tarot deck is a deck of 78 cards, composed of the 22 Major Arcana cards and 56 Minor Arcana. The Major Arcana are all named, distinct cards that tackle large, more vague themes. The Minor Arcana can be more specific, weaving a wider story, and are made up of 4 suites:
