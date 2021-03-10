@@ -490,6 +490,6 @@ footer a:hover{
 
 @supports not (text-decoration-skip-ink: none){
     .blog h3{
-        text-underline-offset: 0;
+        text-underline-offset: initial;
     }
 }
