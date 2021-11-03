@@ -13,9 +13,11 @@
 *{
     --primary: #174E69;
     --secondary: rgb(202, 173, 9);
+    --purple: rgb(170, 59, 190);
     --body-bg: #EBE3E1;
     --nav-bg: rgba(23,78,105, 0.50);
     --author-bg: var(--primary);
+    --author-bg-secondary: var(--purple);
 
     font-size: 22px;
     line-height: 1.5;
@@ -289,7 +291,7 @@ img{
 
 .author{
     width: 100%;
-    background-color: var(--author-bg);
+    background: linear-gradient(161deg, var(--author-bg), var(--author-bg-secondary));
     color: white;
     padding: 40px 1em 60px 1em;
 }
