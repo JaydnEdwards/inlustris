@@ -4,7 +4,9 @@
   "description": "The website for my tarot deck, Inlustris Tarot.",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "watch:sass": "npx sass src/sass:dist/css --watch",
+    "start": "npx eleventy --serve & npm run watch:sass",
+    "production": " NODE_ENV=production eleventy"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/JaydnEdwards/inlustris#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "moment": "^2.29.1"
+    "@11ty/eleventy": "^1.0.2",
+    "moment": "^2.29.1",
+    "sass": "^1.56.1"
   }
 }
