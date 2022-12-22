@@ -1,0 +1,20 @@
+<a class="[ skip-link ] [ button ]  [ visually-hidden ]" href="#main-content">Skip to content</a>
+<header role="banner" class="site-head">
+    {% include "partials/primary-nav.html" %}
+
+    <div class="[ wrapper ]">
+        <hgroup>
+            {% if 'major-arcana' in page.url %}
+            <h1 class="site-title">Major Arcana</h1>
+                {% if '/major-arcana/' !== page.url %}
+                <h2 class="tagline">{{ title }}</h2>
+                {% endif %}
+            {% elif 'minor-arcana' in page.url %}
+            <h1 class="site-title">Minor Arcana</h1>
+                {% if '/minor-arcana/' !== page.url %}
+                <h2 class="tagline">{{ title }}</h2>
+                {% endif %}
+            {% endif %}
+        </hgroup>
+  </div>
+</header>

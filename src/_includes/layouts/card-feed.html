@@ -1,0 +1,30 @@
+{% extends "layouts/base.html" %} {% block content %}
+<section class="feed-body">
+    <div class="section-wrapper">
+        {{ content | safe }}
+    </div>
+    <div class="feed-wrapper">
+    {% if 'major-arcana' in page.url %}
+        {% for post in collections.majorArcana %}
+            {% include 'partials/card.html' %}
+        {% endfor %}
+    {% elif 'pentacles' in page.url %}
+        {% for post in collections.pentacles %}
+            {% include 'partials/card.html' %}
+        {% endfor %}
+    {% elif 'wands' in page.url %}
+        {% for post in collections.wands %}
+            {% include 'partials/card.html' %}
+        {% endfor %}
+    {% elif 'swords' in page.url %}
+        {% for post in collections.swords %}
+            {% include 'partials/card.html' %}
+        {% endfor %}
+    {% elif 'cups' in page.url %}
+        {% for post in collections.cups %}
+            {% include 'partials/card.html' %}
+        {% endfor %}
+    {% endif %}
+    </div>
+</section>
+{% endblock %}

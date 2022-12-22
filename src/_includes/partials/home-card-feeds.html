@@ -1,0 +1,21 @@
+<section class="section-wrapper">
+    <div class="two-column-feed">
+        <div class="outer-wrapper">
+            <h2>Major Arcana</h2>
+            <div class="inner-wrapper">
+            {% for post in collections.majorArcana | randomLimit(6, page.url)  %}
+                {% include 'partials/feed-card.html' %}
+            {% endfor %}
+            </div>
+        </div>
+
+        <div class="outer-wrapper">
+            <h2>Minor Arcana</h2>
+            <div class="inner-wrapper">
+            {% for post in collections.minorArcana | randomLimit(6, page.url)  %}
+                {% include 'partials/feed-card.html' %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

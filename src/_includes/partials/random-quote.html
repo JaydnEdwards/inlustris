@@ -1,0 +1,7 @@
+<section class="section-wrapper">
+    {% for item in collections.all | randomLimit(1, page.url) %}
+    <blockquote class="random-quote">
+        {{ item.data.quote }}
+    </blockquote>
+    {% endfor %}
+</section>

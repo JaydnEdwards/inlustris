@@ -1,7 +1,5 @@
 {% extends "layouts/base.html" %} {% block content %}
-<article class="arcana-body">
-  <h2 class="card-title">{{ title }}</h2>
-  <p class="card-summary">{{ summary }}</p>
+<article class="arcana section-wrapper">
   <figure class="arcana-wrapper">
       <picture class="card">
           <source srcset="/{{ card.webp }}" alt="{{ card.alt }}">
@@ -9,19 +7,25 @@
       </picture>
 
       <figcaption>
-          <p class="meaning">{{ meaning.general }}</p>
-          <p class="meaning">{{ meaning.example }}</p>
+        <p class="card-summary">{{ summary }}</p>
 
-            <h3>Keywords</h3>
-          <ul class="keywords">
-            {% for item in keywords %}
-                <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </figcaption>
+        <h3>Keywords</h3>
+        <ul class="keywords">
+          {% for item in keywords %}
+              <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </figcaption>
   </figure>
+
+  {{ content | safe }}
+
   {% if quote %}
-  <blockquote class="arcana-quote">"{{ quote }}"</blockquote>
+  <blockquote>
+    <span class="arcana-quote">{{ quote }}</span>
+    <br>
+    <span class="byline">{{ quoteby }}</span>
+  </blockquote>
   {% endif %}
 </article>
 {% endblock %}

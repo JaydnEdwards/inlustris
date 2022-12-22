@@ -1,6 +1,8 @@
 {% extends "layouts/base.html" %} {% block content %}
-<article class="feed-body">
-    <h2>{{ title }}</h2>
+<section class="feed-body">
+    <div class="section-wrapper">
+        {{ content | safe }}
+    </div>
     <div class="feed-wrapper">
     {% for post in collections.majorArcana %}
     <a href="{{ post.url }}" title="{{ post.data.title }}">
@@ -9,13 +11,9 @@
                 <source srcset="../{{ post.data.card.webp }}" alt="{{ post.data.card.alt }}">
                     <img src="../{{ post.data.card.jpg }}" alt="{{ post.data.card.alt }}">
             </picture>
-
-            <figcaption>
-                <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-            </figcaption>
         </figure>
     </a>
     {% endfor %}
     </div>
-</article>
+</section>
 {% endblock %}

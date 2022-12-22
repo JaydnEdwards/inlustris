@@ -1,0 +1,16 @@
+<nav class="primary-nav">
+    <ul>
+        <li>
+            <div class="logo">
+                <a href="/">
+                    {% include 'logo.svg' %}
+                </a>
+            </div>
+        </li>
+        {% for item in navigation.items %}
+        <li>
+            <a href="{{ item.url }}">{{ item.text }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
