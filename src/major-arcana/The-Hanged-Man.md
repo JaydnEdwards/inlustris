@@ -22,3 +22,11 @@ keywords:
 quote: 'In order to understand the world, one has to turn away from it on occasion.'
 quoteby: 'Albert Camus'
 ---
+
+The Hanged Man represents the need for introspection and pause as you approach a crossroads.
+
+If you get this card then you are being told to stop and pause before you make your next move. If you do not, circumstances may make you take pause. The Hanged Man symbolises the need to take a break - things may becoming to a halt. At least for a time. You need to really take the time to think over things and try new perspectives. 
+
+You may need to consider your relationship(s) and decide what you want out of it. 
+
+If you are lost about your career, you may need to let things unfold. You may also need time to heal or take a new view of mindfulness towards yourself.

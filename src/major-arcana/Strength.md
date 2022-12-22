@@ -8,9 +8,6 @@ card:
     jpg: 'images/major-arcana/strength/Strength.jpg'
     alt: 'The Strength card. A woman and two lionesses in a jungle.'
     
-meaning:
-    general: 'You can get over this. It will pass. Stay strong, friend.'
-    example: 'If you get this card, you may be receiving a message to stay strong - keep your emotions in check and stay level-headed. You will overcome your struggle and control the situation.'
 keywords:
     - 'Strength'
     - 'Inner Strength'
@@ -23,3 +20,7 @@ keywords:
 quote: 'Life is suffering. It is hard. The world is cursed. But still you find reasons to keep on living.'
 quoteby: 'Princess Mononoke'
 ---
+
+You can get over this. It will pass. Stay strong, friend.
+
+If you get this card, you may be receiving a message to stay strong - keep your emotions in check and stay level-headed. You will overcome your struggle and control the situation.
