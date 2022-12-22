@@ -1,0 +1,43 @@
+.feed-body {
+    max-width: 75vw;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+
+    h2 a {
+        font-size: 1.5rem;
+    }
+}
+
+.feed-wrapper {
+    --min-grid-width: 175px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-grid-width), 1fr));
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+
+    figure {
+        width: 100%;
+    }
+
+    picture,
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+
+    a {
+        font-size: inherit;
+        text-decoration-color: var(--secondary);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .feed-wrapper {
+        --min-grid-width: 150px;
+    }
+}

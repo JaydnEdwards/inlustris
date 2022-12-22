@@ -1,0 +1,79 @@
+:root {
+    --serif: "InknutAntiqua-Regular";
+    --sans-serif: 'CabinetGrotesk-Regular';
+}
+
+* {
+    font-size: 20px;
+    line-height: 1.5;
+
+    font-family: 'CabinetGrotesk-Regular', sans-serif;
+}
+
+h1,
+h2,
+h2 a,
+h3,
+h3 a{
+    font-family: var(--serif), serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+
+    color: var(--primary);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.25rem;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.blog h3{
+    color: black;
+    font-weight: 400;
+}
+
+p{
+    max-width: 75ch;
+    margin-bottom: 1.5em;
+}
+
+p a{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+body a:hover{
+    text-decoration-color: var(--secondary);
+}
+
+p strong{
+    color: var(--primary);
+    font-family: 'CabinetGrotesk-Bold', sans-serif;
+}
+
+figcaption{
+    font-family: 'CabinetGrotesk-Regular', sans-serif;
+}
+
+.post-date{
+    margin: 0;
+    font-family: "CabinetGrotesk-Bold";
+
+    time {
+        font-family: "CabinetGrotesk-Bold";
+        color: var(--accent);
+    }
+}

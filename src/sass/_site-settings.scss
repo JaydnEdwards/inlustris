@@ -1,0 +1,26 @@
+body{
+    background-color: var(--body-bg);
+}
+
+main {
+
+    img {
+        border-radius: 0.25rem;
+    }
+}
+
+section {
+    padding: 0 1rem;
+}
+
+.section-wrapper {
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    //padding: 0 20px 2rem 20px;
+
+    &__large {
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+}

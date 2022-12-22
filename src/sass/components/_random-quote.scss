@@ -1,0 +1,15 @@
+.random-quote {
+    text-align: center;
+    font-family: var(--serif);
+    color: var(--primary);
+    font-size: 1.25rem;
+    padding: 3rem 0;
+
+    &:before {
+        content: '"';
+    }
+
+    &:after {
+        content: '"';
+    }
+}
