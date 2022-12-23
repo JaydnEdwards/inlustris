@@ -80,50 +80,6 @@ img{
     margin-right: 1.5em;
 }
 
-.author{
-    width: 100%;
-    background: linear-gradient(161deg, var(--author-bg), var(--author-bg-secondary));
-    color: white;
-    padding: 40px 1em 60px 1em;
-}
-
-.author .wrapper{
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-    max-width: 85ch;
-
-    margin: 0 auto;
-}
-
-.author-text{
-    max-width: 50ch;
-}
-
-.author-text h2{
-    color: white;
-    text-align: left;
-}
-
-.author img{
-    object-fit: cover;
-    border-radius: 10px;
-    max-width: 330px;
-    max-height: 350px;
-}
-
-.author a{
-    text-decoration: underline;
-    transition: 0.5s;
-}
-
-.author a:hover{
-    text-decoration-color: var(--secondary);
-    text-decoration-thickness: 5px;
-}
-
 .blog figure{
     width: 100%;
     text-align: center;
