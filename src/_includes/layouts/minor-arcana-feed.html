@@ -7,7 +7,7 @@
         <div class="outer-wrapper">
         <h2><a href="pentacles/">Pentacles</a></h2>
             <div class="inner-wrapper">
-            {% for post in collections.pentacles | randomLimit(3, page.url)  %}
+            {% for post in collections.pentacles | limit(3)  %}
                 {% include 'partials/feed-card.html' %}
             {% endfor %}
             </div>
@@ -16,7 +16,7 @@
         <div class="outer-wrapper">
             <h2><a href="wands/">Wands</a></h2>
                 <div class="inner-wrapper">
-                {% for post in collections.wands | randomLimit(3, page.url) %}
+                {% for post in collections.wands | limit(3) %}
                     {% include 'partials/feed-card.html' %}
                 {% endfor %}
                 </div>
@@ -25,7 +25,7 @@
         <div class="outer-wrapper">
             <h2><a href="swords/">Swords</a></h2>
                 <div class="inner-wrapper">
-                {% for post in collections.swords | randomLimit(3, page.url) %}
+                {% for post in collections.swords | limit(3) %}
                     {% include 'partials/feed-card.html' %}
                 {% endfor %}
                 </div>
@@ -34,7 +34,7 @@
         <div class="outer-wrapper">
             <h2><a href="cups/">Cups</a></h2>
                 <div class="inner-wrapper">
-                {% for post in collections.cups | randomLimit(3, page.url) %}
+                {% for post in collections.cups | limit(3) %}
                     {% include 'partials/feed-card.html' %}
                 {% endfor %}
                 </div>
