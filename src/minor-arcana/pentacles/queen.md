@@ -1,26 +1,29 @@
 ---
 layout: 'layouts/arcana.html'
 title: 'Queen - Pentacles'
-summary: 'A card symbolising teamwork, collaborative effort and completion of goals.'
+summary: 'A card symbolising warmth, practicality, luxury and nurture.'
 displayOrder: 13
 card:
     webp: '../images/minor-arcana/pentacles/queen.webp'
     jpg: '../images/minor-arcana/pentacles/queen.jpg'
-    alt: 'The three of pentacles card. two hands reach for eachother with light flowing around both. Three pentacles hover in the air above.'
+    alt: 'The queen of pentacles card. A woman sits laughing and joyful. Golden trees stand strong behind her and a pentacle halo illuminates her.'
     
 keywords:
-    - 'Teamwork'
-    - 'Collaboration'
-    - 'Effort'
-    - 'Learning'
-    - 'Working by yourself'
-    - 'Competition'
-quote: 'No one can whistle a symphony. It takes a whole orchestra to play it'
-quoteby: 'H.E. Luccock'
+    - 'Caring'
+    - 'Nurturing'
+    - 'Generous'
+    - 'Practical'
+    - 'Comforting'
+    - 'Healer'
+    - 'Grateful'
+quote: 'Be the one who nurtures and builds. Be the one who has an understanding and a forgiving heart one who looks for the best in people. Leave people better than you found them.'
+quoteby: 'Marvin J. Ashton'
 ---
 
-The three of pentacles shows us the completion of a project or goal, which is usually achieved with support from and collaboration with others.
+The queen of pentacles is a very positive card. She is warm and nurturing. She is also an independent queen; through her own hard work, she has everything she needs.
 
-If you haven't done so already, take some time to plan out your goals and how you will achieve them.
+This card tells us to be more independent, to maintain a stable income and set enough time for ourselves and our loved ones. This might be something you have not yet achieved but are working towards. If that's the case then take this as a positive sign.
 
-When read in the negative, the Three of Pentacles also represents disharmony, working alone and competition. Be wary of others fighting against you, and reach out for support where you need it.
+When representing a person, the queen is a practical yet compassionate person that helps - or wants to help - us navigate through life. That could be a family member, a friend, a teacher or mentor, or even a counsellor.
+
+This is also what the queen asks of us; be calm and nurturing with other people but be practical and resourceful if and when issues appear. She also asks that we give ourselves enough time to rest and care for ourselves, otherwise we might burn out.
