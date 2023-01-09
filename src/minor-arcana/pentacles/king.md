@@ -1,26 +1,26 @@
 ---
 layout: 'layouts/arcana.html'
 title: 'King - Pentacles'
-summary: 'A card symbolising teamwork, collaborative effort and completion of goals.'
+summary: 'A card symbolising hard work, success and completion of goals.'
 displayOrder: 14
 card:
     webp: '../images/minor-arcana/pentacles/king.webp'
     jpg: '../images/minor-arcana/pentacles/king.jpg'
-    alt: 'The three of pentacles card. two hands reach for eachother with light flowing around both. Three pentacles hover in the air above.'
+    alt: 'The king of pentacles card. A man sits on an extremely long wooden bridge, looking at his castle which has a giantg pentacle rising behind it.'
     
 keywords:
-    - 'Teamwork'
-    - 'Collaboration'
-    - 'Effort'
-    - 'Learning'
-    - 'Working by yourself'
-    - 'Competition'
-quote: 'No one can whistle a symphony. It takes a whole orchestra to play it'
-quoteby: 'H.E. Luccock'
+    - 'Abundance'
+    - 'Prosperity'
+    - 'Security'
+    - 'Leadership'
+    - 'Discipline'
+    - 'Self improvement'
+quote: 'Remember to celebrate milestones as you prepare for the road ahead.'
+quoteby: 'Nelson Mandela'
 ---
 
-The three of pentacles shows us the completion of a project or goal, which is usually achieved with support from and collaboration with others.
+The king of pentacles is a card that symbolises you building your wealth and managing it successfully. You can see opportunities as they arise but you can also grab and hold on to them.
 
-If you haven't done so already, take some time to plan out your goals and how you will achieve them.
+This card is a very positive sign that your finances are healthy - or that you will soon be able to reach your financial goals if you see your hard work through to the end. Be sure to keep an eye on your resources and avoid burnout.
 
-When read in the negative, the Three of Pentacles also represents disharmony, working alone and competition. Be wary of others fighting against you, and reach out for support where you need it.
+You may be about to finish a creative task, project or business venture. This will have been achieved through methodical hard work and well thought out plans. You should soon be able to enjoy the success that you yourself have crafted.
