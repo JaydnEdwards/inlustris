@@ -1,16 +1,21 @@
 {% extends "layouts/base.html" %} {% block content %}
 <article class="blog-feed">
-    <h2>{{ title }}</h2>
+    <section class="feed-body">
     {% for post in collections.blog %}
-    <picture>
-        <source
-    </picture>
     <div class="[ blog-feed-wrapper ]">
-    <img src="{{ post.data.socialImage }}" type="image/jpg" alt="">
-    <h3><a href="{{ post.url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
-    <p class="post-date">Posted on <time datetime="{{ post.data.date | w3DateFilter }}">{{ post.data.date | dateFilter }}</time>.</p>
-    <p class="post-snippet">{{ post.data.snippet }}</p>
+        <img src="{{ post.data.socialImage }}" type="image/jpg" alt="">
+
+        <div class="summary">
+            <h2><a href="{{ post.url }}" title="{{ post.data.title }}">
+                {{ loop.revindex0 }} - {{ post.data.title }}
+            </a></h2>
+
+            <p class="post-date">Posted on <time datetime="{{ post.data.date | w3DateFilter }}">{{ post.data.date | dateFilter }}</time>.</p>
+            <p class="post-snippet">{{ post.data.snippet }}</p>
+        </div>
+        
     </div>
     {% endfor %}
+    </section>
 </article>
 {% endblock %}

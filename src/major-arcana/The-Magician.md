@@ -8,9 +8,6 @@ card:
     jpg: 'images/major-arcana/the-magician/Magician.jpg'
     alt: 'The Magician card. A man in a suit holds a bouquet of flowers. The symbol of infinity is among the flowers.'
     
-meaning:
-    general: 'Start manifesting your ideas.'
-    example: 'If you get this card, you may have recently had an idea, or inspiration for something. The Magician tells you to go forward and start working to make that idea real - you have everything you need to start manifesting. Take action! Do beware, however, that the Magician is crafty, and if you hav this in reverse that someone may be manipulating you or events around you.'
 keywords:
     - 'Inspiration'
     - 'Manifestation'
@@ -19,3 +16,9 @@ keywords:
 quote: 'Inspiration unlocks the future.'
 quoteby: 'The Wind Rises'
 ---
+
+Start manifesting your ideas.
+
+If you get this card, you may have recently had an idea, or inspiration for something. The Magician tells you to go forward and start working to make that idea real - you have everything you need to start manifesting. 
+
+Take action! Do beware, however, that the Magician is crafty, and if you have this in reverse that someone may be manipulating you or events around you.

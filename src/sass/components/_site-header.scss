@@ -1,0 +1,147 @@
+.logo {
+    width: 175px;
+}
+
+.site-title{
+    font-size: clamp(2rem, 7vw, 64px);
+    font-size-adjust: 0.5;
+    color: white;
+    font-weight: 400;
+}
+
+.tagline{
+    font-family: var(--serif), sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: clamp(1.5rem, 4vw, 40px);
+}
+
+hgroup *{
+    line-height: 1.2;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(/images/hero.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    min-height: 40vh;
+
+    margin-bottom: 2em;
+
+    .wrapper{
+        height: 33vh;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+.full {
+    height: 100vh;
+    margin-bottom: 15rem;
+
+    .wrapper {
+        height: 50%;
+        align-content: center;
+    }
+
+    .logo {
+        width: 125px;
+        margin: 0 auto;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 1rem 0 1rem 10rem;
+        overflow-x: hidden;
+        margin: 0 auto;
+        justify-items: center;
+        justify-content: center;
+
+        figure {
+            margin-left: -10rem;
+        }
+
+        .level-1 {
+            z-index: 3;
+        }
+        
+        .level-2 {
+            z-index: 2;
+            margin-top: 1rem;
+
+            &:nth-of-type(2) {
+                rotate: -5deg;
+            }
+
+            &:nth-of-type(4) {
+                rotate: 5deg;
+            }
+        }
+        
+        .level-3 {
+            z-index: 1;
+            margin-top: 3rem;
+
+            &:first-child {
+                rotate: -8deg;
+            }
+
+            &:last-child {
+                rotate: 8deg;
+            }
+        }
+
+        figure,
+        picture,
+        img {
+            width: 300px;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+        .cards {
+            padding-left: 7rem;
+
+            figure {
+                margin-left: -7rem;
+            }
+
+            figure,
+            picture,
+            img {
+                width: 250px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .cards {
+            padding-left: 5rem;
+
+            figure {
+                margin-left: -5rem;
+            }
+
+            figure,
+            picture,
+            img {
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .full {
+        margin-bottom: 17.5rem;
+    }
+}

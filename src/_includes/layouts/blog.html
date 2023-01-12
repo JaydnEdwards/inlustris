@@ -1,11 +1,7 @@
 {% extends "layouts/base.html" %} {% block content %}
-<article class="blog">
+<article class="section-wrapper blog">
     <h2>{{ title }}</h2>
     <p class="post-date">Posted on <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>.</p>
   {{ content | safe }}
 </article>
-  <section>
-    {% include "partials/social.html" %}
-    {% include "partials/author.html" %}
-  </section>
 {% endblock %}

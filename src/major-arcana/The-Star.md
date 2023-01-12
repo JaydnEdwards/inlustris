@@ -8,9 +8,6 @@ card:
     jpg: 'images/major-arcana/the-star/Star.jpg'
     alt: 'The Star card. A woman sits on a dirt cliff edge, looking out on a lake and forest.'
     
-meaning:
-    general: 'The Star represents a renewed sense of faith, spirituality and self.'
-    example: "If you get this card then you may be in for a reprieve. You may start to feel a renewed sense of faith - whether that's in yourself, others or a higher power. Things may start to feel like they're going your way and you may start to search for a renewed purpose or meaning."
 keywords:
     - 'Faith'
     - 'Renewal'
@@ -21,3 +18,7 @@ keywords:
 quote: "Hope is the last thing ever lost."
 quoteby: 'Italian Proverb'
 ---
+
+The Star represents a renewed sense of faith, spirituality and self.
+
+If you get this card then you may be in for a reprieve. You may start to feel a renewed sense of faith - whether that's in yourself, others or a higher power. Things may start to feel like they're going your way and you may start to search for a renewed purpose or meaning.

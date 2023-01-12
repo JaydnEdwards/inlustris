@@ -24,3 +24,7 @@ keywords:
 quote: 'When I saw you, I just wanted to find a way to protect you.'
 quoteby: 'The Secret World of Arrietty'
 ---
+
+The Emperor is a leader who demands respect and authority. He can also be a father or father-figure.
+
+If you get this card, you may be about to master a skill, gain authority or power (maybe in the form of a promotion) or providing security and stability. This aspect of security may also mean to not worry about work.

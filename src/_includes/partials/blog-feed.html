@@ -1,0 +1,15 @@
+<section class="section-wrapper home-blog-feed">
+    <h2>{{ blogTitle }}</h2>
+    <div class="blog-grid">
+        {% for post in collections.blog %}
+        <figure class="card">
+            <img src="{{ post.data.socialImage }}" alt="">
+
+            <figcaption>
+                <h3>{{ post.data.title }}</h3>
+                <p>{{ post.data.snippet }}</p>
+            </figcaption>
+        </figure>
+        {% endfor %}
+    </div>
+</section>

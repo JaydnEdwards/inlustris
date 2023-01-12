@@ -1,12 +1,11 @@
 {% extends "layouts/base.html" %} {% block content %}
-<article>
+<section class="section-wrapper">
   {{ content | safe }}
+</section>
 
-  {% include "partials/cards.html" %}
+{% include 'partials/home-card-feeds.html' %}
+{% include 'partials/blog-feed.html' %}
+{% include 'partials/random-quote.html' %}
+{% include 'partials/artist.html' %}
 
-  {% include "partials/social.html" %}
-</article>
-  <section>
-    {% include "partials/author.html" %}
-  </section>
 {% endblock %}

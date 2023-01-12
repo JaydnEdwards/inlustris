@@ -1,0 +1,44 @@
+{% extends "layouts/base.html" %} {% block content %}
+<section class="feed-body">
+    <div class="section-wrapper">
+        {{ content | safe }}
+    </div>
+    <div class="two-column-feed">
+        <div class="outer-wrapper">
+        <h2><a href="pentacles/">Pentacles</a></h2>
+            <div class="inner-wrapper">
+            {% for post in collections.pentacles | limit(3)  %}
+                {% include 'partials/feed-card.html' %}
+            {% endfor %}
+            </div>
+        </div>
+
+        <div class="outer-wrapper">
+            <h2><a href="wands/">Wands</a></h2>
+                <div class="inner-wrapper">
+                {% for post in collections.wands | limit(3) %}
+                    {% include 'partials/feed-card.html' %}
+                {% endfor %}
+                </div>
+        </div>
+
+        <div class="outer-wrapper">
+            <h2><a href="swords/">Swords</a></h2>
+                <div class="inner-wrapper">
+                {% for post in collections.swords | limit(3) %}
+                    {% include 'partials/feed-card.html' %}
+                {% endfor %}
+                </div>
+        </div>
+
+        <div class="outer-wrapper">
+            <h2><a href="cups/">Cups</a></h2>
+                <div class="inner-wrapper">
+                {% for post in collections.cups | limit(3) %}
+                    {% include 'partials/feed-card.html' %}
+                {% endfor %}
+                </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

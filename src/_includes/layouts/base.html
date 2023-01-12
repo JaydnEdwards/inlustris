@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="https://use.typekit.net/nos7ayz.css">
     <link rel="stylesheet" href="/css/inlustris.css">
 
@@ -20,16 +19,24 @@
   </head>
 
   <body>
-    {% include "partials/site-head.html" %}
+    {% if '/' == page.url %}
+      {% include "partials/site-head-full.html" %}
+    {% elif 'arcana' in page.url %}
+      {% include "partials/site-head-arcana.html" %}
+    {% elif '/' !== page.url %}
+      {% include "partials/site-head.html" %}
+    {% endif %}
 
 
     <main tabindex="-1" id="main-content">
+      <article>
         {% block content %}{% endblock %}
+      </article>
     </main>
 
 
     <footer>
-        <p>Copyright &copy; 2021 Inlustris Tarot</p>
+        <p>Copyright &copy; 2023 Inlustris Tarot</p>
         <p>Designed and developed by <a href="https://jaydnedwards.com">Jaydn Edwards</a></p>
     </footer>
   </body>

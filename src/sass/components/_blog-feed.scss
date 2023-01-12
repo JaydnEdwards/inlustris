@@ -1,0 +1,35 @@
+.blog-feed-wrapper{
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 2rem;
+
+    img {
+        width: 200px;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .summary {
+        h2,
+        h2 a {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .post-snippet{
+            margin-bottom: 0;
+        }
+    
+        .post-tags{
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            padding: 0;
+    
+            li{
+                margin-right: 1em;
+            }
+        }
+    }
+}

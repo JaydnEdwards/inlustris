@@ -1,0 +1,48 @@
+.primary-nav {
+    padding: 0.25em 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+    color: white;
+
+    ul {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+
+    li {
+        display: grid;
+        align-content: center;
+    }
+
+    li:not(:last-child) {
+        margin-right: 1em;
+    }
+
+    a {
+        font-family: var(--serif), serif;
+        font-weight: 400;
+
+        &:hover {
+            text-decoration-color: var(--accent);
+        }
+    }
+
+    .logo {
+        display: grid;
+        width: 75px;
+        transition: all 0.5s;
+
+        &:hover {
+            svg,
+            path,
+            circle {
+                fill: gold;
+                stroke: gold;
+            }
+        }
+    }
+}
